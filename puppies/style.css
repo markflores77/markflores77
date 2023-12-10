@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper {
+  background-color:#ccaa66;
+}
+.home-hero{
+  background-image:url(images-puppies/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+  border: #5C4033 5px solid;
+}
+
+blockquote{
+  background-color: #eeeeee;
+  border-left: 10px solid #5C4033	;
+  padding: 30px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+h5 {
+  text-align: center;
+}
+
+.dogs {
+border-radius: 50px;
+border: 5px solid #5C4033;
+}
+
+.fa {
+  color: #5C4033	;
+  font-size: 5em;
+}
+
+a:link{
+  color: purple;
+  }
+  a:visited{
+  color: purple;
+  }
+  a:hover{
+  color: blue;
+  }
+  a:active{
+  color: black;
+  }  
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  color:lightgray;
+}
+nav a:active{
+  color:gray;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+
+nav{
+  background-color:#5C4033;
+  border-top: 1.5px black solid;
+  border-bottom: 1.5px black solid;
+  padding-top: 10px;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+
+
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+}
+
